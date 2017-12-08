@@ -2,64 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name=viewport content = "width=700">
-  <link  name=resetsylesheet href="reset.css">
   <title>Blane Fowler's Profile</title>
 <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body></body>
+  <body>
 
-<div class="mainlogo">BF</div>
 
-        <ul class="nav">
-          <li class= "list"><a href="#">Home|</a></li>
-          <li class= "list"><a href="resume.html">Experience|</a></li>
-          <li class= "list"><a href="#">Social</a></li>
+
+<!-- <div class="container d-flex mt-3"> -->
+
+
+   <!-- <h1 class="display-4 text-muted mr-auto">BF</h1> -->
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+     <a class="navbar-brand display-2 border" href="#">BF</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Experience</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Blog</a>
+         </li>
        </ul>
+         <button class="btn btn-outline-info my-2 my-sm-0" href="mailto:blanefj@gmail.com" type="submit">Contact</button>
+       </form>
+     </div>
+   </nav>
 
 
-    <header>
 
-     <h1>Hello, my name is Blane. I am a <span class=devfont>Front End Developer </span> <br> living in Anderson, SC.</h1>
 
-    </header>
-<div>
-    <img ~/-src="meandwife.jpg" alt="picture of Blane and his wife" class="mainpic">
+
+
+
+
+
+
+
+
+
+
+        <!-- <ul class="nav flex-column flex-sm-row justify-content-end">
+          <li class="nav-item"><a class="flex-sm-fill text-sm-center nav-link active text-secondary" href="#">Home</a></li>
+          <li class="nav-item"><a class="flex-sm-fill text-sm-center nav-link active text-secondary" href="resume.html">Experience</a></li>
+          <li class="nav-item"><a class="flex-sm-fill text-sm-center nav-link active text-secondary" href="http://Blanedeveloper.wordpress.com">Blog</a></li>
+        </ul> -->
+<!-- </div> -->
+
+    <blockquote class = "container blockquote text-center">
+     <h1 class="display-4" >Hello, my name is Blane. I am a <span class="text-muted">Front End Developer</span> living in Anderson, SC.</h1>
+   </blockquote>
+
+<div class="container text-center pic">
+    <img src="images/meandwife3.jpg" alt="picture of Blane and his wife" class="img-fluid">
 </div>
 
-    <main class="flex">
-      <div class="card">
-       <h2>Background</h2>
-        <p>I’m a Font End Developer who loves everything about the web.
-          After searching for a fufilling career I finally found the perfect mix of creativity and problem solving in web development.
-          I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long
-          learner who's always interested in expanding my skills.</p>
+
+
+    <main class="container mt-5">
+      <div class="container">
+       <h2 class="h2">Background</h2>
+        <p class="lead">I’m a front end developer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
+        <p class="lead">I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
         <ul>
-          <li>To learn more, <a href="resume.html">view my resume.</a></li>
+          <li class ="h6">To learn more, <a href="nav-link active text-secondary">view my resume.</a></li>
         </ul>
+        <h3>
+        A new subsection
+        </h3>
       </div>
 
-      <div class="card">
-        <h2>Skills</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+      <div class="container">
+        <h2>Goals</h2>
+        <p class="lead">I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
+          <li>React</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+        <p class="lead">I’d like to work for a web design firm helping clients create an impressive online presence.</p>
       </div>
 
     </main>
-    <footer>
+    <footer class="container p">
       <ul>
         <li><a href="#" class="social twitter">Twitter</a></li>
         <li><a href="#" class="social linkedin">LinkedIn</a></li>
         <li><a href="#" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2017, Blane Fowler</p>
+      <p class="copyright">Copyright 2015, Jane Smith</p>
     </footer>
   </body>
   </html>

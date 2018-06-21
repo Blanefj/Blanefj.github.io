@@ -10,7 +10,7 @@ img
 
 }
 
-li:hover {
+/* li:hover {
 text-decoration: underline;
 }
   .navbar-brand {
@@ -20,7 +20,7 @@ text-decoration: underline;
   .display-4 {
 
    font-size: 2.25rem;
-  }
+  } */
 
 footer {
 
@@ -28,14 +28,14 @@ footer {
 }
 
 
-.background {
+/* .background {
 
 font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 color: #262626;   
-}
+} */
 
-p {
+/* p {
 
 
   text-color: #262626;
-}
+} */

@@ -2,6 +2,10 @@ body {
   background-color: #1C2326;
 }
 
+.logo {
+   color: #65C6D7;
+}
+
 blockquote {
   margin-top: 6rem;
 
